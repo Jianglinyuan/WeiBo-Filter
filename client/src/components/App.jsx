@@ -6,9 +6,11 @@ class App extends React.Component {
     render () {
         return (
             <div>
-                <span className="avatar"><img src="assets/images/avatar.jpg" alt="logo" width ="122px" style = {{
+                <span className="avatar">
+                    <img src="assets/images/avatar.jpg" alt="logo" width ="122px" style = {{
                     background: 'white'
-                }}/></span>
+                    }}/>
+                </span>
                 <h1>Weibo Filter</h1>
                 <button>Login</button>
             </div>

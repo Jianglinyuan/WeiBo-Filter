@@ -1,3 +1,9 @@
 {
-    "presets": ["es2015", "stage-3", "react"]
+    "presets": ["es2015", "stage-3", "react"],
+    "plugins": [["import", {
+        "style": true,
+        "libraryDirectory": "lib",  // default: lib
+        "libraryName": "antd",
+        "camel2DashComponentName": true // default: true
+    }]]
 }

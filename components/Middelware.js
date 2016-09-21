@@ -1,5 +1,5 @@
-import compose from 'koa-compose';
-import _ from 'lodash';
+import compose from 'koa-compose'
+import _ from 'lodash'
 
 
 export default function Middelware (config) {
